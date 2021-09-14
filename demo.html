@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+          integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+          integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+            integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+            crossorigin="anonymous"></script>
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        .contain {
+            background: white
+        }
+
+        .row div {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        div {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            vertical-align: middle;
+        }
+
+        ul li {
+            padding-bottom: 5%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .overhidetwo {
+            　　display: -webkit-box !important;
+            　　text-overflow: ellipsis;
+            　　overflow: hidden;
+            　　-webkit-line-clamp: 2;
+            　　-webkit-box-orient: vertical;
+            　　word-break: break-all;
+        }
+
+        .overhidefive {
+            　　display: -webkit-box !important;
+            　　text-overflow: ellipsis;
+            　　overflow: hidden;
+            　　-webkit-line-clamp: 2;
+            　　-webkit-box-orient: vertical;
+            　　word-break: break-all;
+        }
+    </style>
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
+            src="//music.163.com/outchain/player?type=2&id=1811951229&auto=1&height=66">
+    </iframe>
+
+</head>
+<body style="background: rgb(240, 240, 240)">
+
+<div class="container contain">
+    <!--    首行-->
+    <div class="row" style="margin-top: 5%">
+        <div class="col-xs-2 col-xs-offset-2">
+            <div class="glyphicon glyphicon-user"></div>
+            <div><a href="https://github.com/bigtitsboy" style="text-decoration: none;color: black">个人主页</a></div>
+        </div>
+        <div class="col-xs-2">
+            <i class="glyphicon glyphicon-phone"></i>
+            <div>13159331519</div>
+        </div>
+        <div class="col-xs-2">
+            <i class="glyphicon glyphicon-envelope"></i>
+            <div>ow20000821@outlook.com</div>
+        </div>
+        <div class="col-xs-2">
+            <i class="glyphicon glyphicon-home"></i>
+            <div>福建省莆田市</div>
+        </div>
+    </div>
+    <!--    分割线-->
+    <div style="height: 10px;background: rgb(237, 237, 237);margin-top: 5px;border-radius: 5px;border: 1px solid rgb(243, 243, 243)"></div>
+    <!--    第二行-->
+    <div class="row">
+        <div class="col-xs-4" style="border-right: 10px solid rgb(243, 243, 243);">
+            <div style="background: rgb(243, 243, 243);height: 12px;margin: 30px 0;overflow:visible ">
+                <div style="margin-top: -5%;display: inline-block;background: white">个人信息</div>
+            </div>
+            <div>
+                <ul style="text-align: left;padding-left: 25%;font-size: 15px;color: gray;">
+                    <li>姓名:个人简历.</li>
+                    <li>性别:女</li>
+                    <li>生日: 1992. 05.01</li>
+                    <li>邮箱:88xx.com</li>
+                    <li>电话:1358888888</li>
+                    <li>地址:上海市浦东</li>
+                    <li>求职意向:行政主管</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-8">
+            <div style="background: rgb(243, 243, 243);height: 12px;margin: 30px 0;overflow:visible ">
+                <div style="margin-top: -3%;display: inline-block;background: white">教育背景</div>
+            </div>
+            <div>
+                <ul style="text-align: left;padding-left: 35%;font-size: 15px;color: gray;margin-top: 30px">
+                    <li style="margin-top: 10px">北京大学2008. 09-2012 06.</li>
+                    <li style="margin-top: 10px">GPA: 3.5/4.0</li>
+                    <li style="margin-top: 10px">班级排名1/60</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--    分割线-->
+    <div style="height: 10px;background: rgb(237, 237, 237);margin-top: 0;border-radius: 5px;border: 1px solid rgb(243, 243, 243)"></div>
+    <!--    第三行-->
+    <div class="row">
+        <div class="col-xs-4" style="border-right: 10px solid rgb(243, 243, 243);">
+            <div style="background: rgb(243, 243, 243);height: 12px;margin: 30px 0;overflow:visible ">
+                <div style="margin-top: -5%;display: inline-block;background: white">兴趣爱好</div>
+            </div>
+            <div style="padding: 10%;margin-bottom: 15%" class="overhidetwo">
+                读书、跑步、音乐。钢梦.电影
+                <br>
+                爬山、旅游、动物
+            </div>
+
+        </div>
+        <div class="col-xs-8">
+            <div style="background: rgb(243, 243, 243);height: 12px;margin: 30px 0;overflow:visible ">
+                <div style="margin-top: -3%;display: inline-block;background: white">个人经历</div>
+            </div>
+            <div style=";overflow: visible">
+                行政主管
+                <br>
+                2015.06- 2016.10
+                <br>
+                1.组织办好公司各项会议季度会。
+                <br>
+                2.娱乐省内外旅游等各项活动。 <br>
+
+                3.组织各种员工福利活动活动。 <br>
+
+                4.宣传文体工作，办好黑板报。 <br>
+
+            </div>
+        </div>
+    </div>
+    <!--    分割线-->
+    <div style="height: 10px;background: rgb(237, 237, 237);margin-top: 0;border-radius: 5px;border: 1px solid rgb(243, 243, 243)"></div>
+    <!--    第四行-->
+    <div class="row">
+        <div class="col-xs-4" style="border-right: 10px solid rgb(243, 243, 243);">
+            <div style="background: rgb(243, 243, 243);height: 12px;margin: 30px 0;overflow:visible ">
+                <div style="margin-top: -5%;display: inline-block;background: white">自我评价</div>
+            </div>
+            <div>
+                <div style="padding: 10%;margin-bottom: 15%" class="overhidefive">
+                    本人性格开朗活泼，在校期 <br>
+                    间学习认真成绩良好。大学里经 <br>
+                    常参加一些文娱活动，逐渐养成 <br>
+                    了善于交际、能与人和睦相处的 <br>
+                    好习惯。
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-8">
+            <div style="background: rgb(243, 243, 243);height: 12px;margin: 30px 0;overflow:visible ">
+                <div style="margin-top: -3%;display: inline-block;background: white">技能特长</div>
+            </div>
+            <div>
+                <div style="padding: 5% 0 0 35%;text-align: left" class="overhidefive">
+                    各类公文写作 &nbsp;&nbsp;&nbsp;&nbsp;
+                    [熟练] <br>
+                    新闻写作和新闻摄影 &nbsp;&nbsp;&nbsp;&nbsp;
+                    [熟练] <br>
+                    英语六级 &nbsp;&nbsp;&nbsp;&nbsp;
+                    [精通] <br>
+                    Photoshop图片编辑 &nbsp;&nbsp;&nbsp;&nbsp;[熟练] <br>
+                    office办公软件 &nbsp;&nbsp;&nbsp;&nbsp;[ 熟练]
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    分割线-->
+    <div style="height: 10px;background: rgb(237, 237, 237);border-radius: 5px;border: 1px solid rgb(243, 243, 243)">
+    </div>
+    <div class="row">
+        <div class="col-xs-6 col-xs-offset-3" style="text-align: center">
+            <video width="100%" height="240px" controls style="float: left">
+                <source src="vedio/movie.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
